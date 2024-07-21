@@ -1,0 +1,31 @@
+/* index.css */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: Roboto;
+}
+
+.not-found-img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 24px;
+}
+
+.not-found-heading {
+  font-size: 25px;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+.not-found-para {
+  font-size: 18px;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 0;
+}

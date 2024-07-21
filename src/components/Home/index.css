@@ -1,0 +1,23 @@
+/* index.css */
+
+.home-container {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #102542;
+  font-family: Roboto;
+}
+
+.main-heading {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 500px;
+}

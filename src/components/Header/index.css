@@ -1,0 +1,30 @@
+/* index.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px 10px 50px;
+  background-color: #102542;
+  font-family: Roboto;
+}
+
+.logo {
+  width: 120px;
+}
+
+.logout-button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ffffff;
+  color: #102542;
+}
